@@ -41,5 +41,5 @@ Thumbs.db
 .eslintcache
 .cache/
 
-# Filesystem recovery folder
+# Filesystem recovery folder (created by fsck; never commit)
 lost+found/
