@@ -57,3 +57,4 @@ Copy [`.env.example`](./.env.example) to `.env` for local use. Document each nam
 ## License
 
 Proprietary — see [LICENSE](./LICENSE). [LICENSES/launchpad-MIT.txt](./LICENSES/launchpad-MIT.txt) preserves the MIT notice for the Launchpad template components.
+This line was added as a Foreman rehearsal and can be safely deleted.
