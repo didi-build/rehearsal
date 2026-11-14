@@ -40,3 +40,4 @@ Thumbs.db
 # Tooling caches
 .eslintcache
 .cache/
+lost+found/
