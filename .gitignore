@@ -40,6 +40,4 @@ Thumbs.db
 # Tooling caches
 .eslintcache
 .cache/
-
-# Filesystem recovery folder (created by fsck; never commit)
 lost+found/
