@@ -6,11 +6,16 @@ describe("truncate", () => {
     expect(truncate("hello", 10)).toBe("hello");
     expect(truncate("hello", 5)).toBe("hello");
     expect(truncate("", 5)).toBe("");
+    // Specific cases from the plan
+    expect(truncate("short", 10)).toBe("short");
+    expect(truncate("abc", 3)).toBe("abc");
   });
 
   it("should truncate and add ellipsis when input is longer than max", () => {
     expect(truncate("hello world", 5)).toBe("hell…");
     expect(truncate("hello world", 10)).toBe("hello wor…");
+    // Specific case from the plan
+    expect(truncate("abcd", 3)).toBe("ab…");
   });
 
   it("should throw a RangeError when max is below 1", () => {
